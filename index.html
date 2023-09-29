@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>My Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='main.js'></script>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <link href="font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+           <nav>
+            <img src="imge/wdc.png" class="logo">
+                 <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Us</a></li> 
+                    <i class="fa fa-times" aria-hidden="true" onclick="closemenu()"></i>
+               </ul>
+                    <i class="fa fa-bars" aria-hidden="true" onclick="openmenu()"></i>
+            
+        </nav> <!-- #endregion NAV--> 
+            <div class="header-text">
+                <h4><spa>Full-Stack</spa>&nbsp;Web Developer</h4><h1><sp>Hi,</sp> I'm Mong <span>San</span></h1>
+                <br>
+                    <p>This is My Official Portfolio Website,<br>To Showes All Datails And Work Exiprins Web Development.</p>
+                    <br><br>
+                    <a href="css-resume/resume.html" class="res">See My Resume</a>
+            </div>
+                <div class="images">
+                    
+                    <picture>
+                        <source srcset="imge/Picsart_23-09-25_19-02-25-817.png" media="(min-width:600px)">
+                        <img src="imge/19-195686_free-png-background-images.png">
+                    </picture>
+                </div>
+
+        </div><!-- #endregion container -->
+    </div><!-- #endregion HEADER -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="imge/IMG_20230923_174220.jpg">
+            </div>
+                <div class="about-col-2">
+                    <h1 class="sub-titles">About Me.</h1>
+                        <p class="pa">Hello, I am a Full-Stack Web developer based in Dhaka and happy to build various kind of website.My aim in life to become professional full-stack web developer.Since beginning my journey as a web developer nearly 2 years ago. like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>General: HTML5, CSS3 , JAVASCRIPT</li>
+                        <li><span>Style Sheets Framework: Bootstrap, Materialize CSS</span> </li>
+                        <li>JS Framework: handlebarsJS, AngularJs, jQuery, VueJs</li>
+                        <li><span>Tools: Gulp, SCSS, LESS, NPM, Apache, Composer</span></li>
+                        <li>Source Control: Subversion, GIT ● Database:MongoDB</li>
+                        <li><span>Language Skills</span><br>●Bengali(Native Tongue)<br>
+                            ●English<br>
+                            ●Hindi</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>I have experience working with page applications like VueJS and templating tools like Laravel blade, jQuery etc. I can convert PSD templated pixel perfectly into HTML Templates. I have good coding experience which make the project well-organised and commented.</li>
+                        <li><span>JS Framework:</span><br>
+                            &nbsp &nbsp;●jQuery
+                            &nbsp&nbsp;●VueJs<br></li>
+                        <li><span>Style Sheets Framework:</span><br>
+                            &nbsp&nbsp;●Bootstrap 
+                            &nbsp&nbsp;●Materialize
+                            &nbsp&nbsp;●CSS</li> 
+                        <li><span>Tools:</span><br>
+                            &nbsp&nbsp;●SCSS
+                            &nbsp&nbsp;●LESS
+                            &nbsp&nbsp;●Laravel
+                            &nbsp&nbsp;●blade</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>SSC.</span><br>Shyamoli Ideal School & College Dhaka.<br>Science Division<br>2018-2019</li>
+                        <li><span>Diploma in computer.</span><br>Institute Of Science Trade & Technology,Mirpur-13,Dhaka-1216.<br>
+                        Computer Science <br>2019-present</li><br>
+                    </ul>
+                </div> <!-- #endregion tab contents -->
+            </div>
+        </div>
+
+    </div>
+
+</div><!-- #endregion ABOUT -->
+<!-- #region services -->
+<div id="services">
+    <div class="container2">
+        <h1 class="sub-titl">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-crop" aria-hidden="true"></i>
+                    <h2>Web Design</h2>
+                    <p>To satisfy the customers, Webdrop Creative provides the best website design services. We put the needs of clients first when creating a website.</p>
+                    <a href="">Learn More</a>
+                </div>
+            <div>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <h2>Web Development</h2>
+                    <p>We listen to the needs of the client in creating a website and accordingly we create the website so that a beautiful experience is created for the user.</p>
+                    <a href="">Learn More</a>
+            </div>
+            <div>
+                <i class="fa fa-search-plus" aria-hidden="true"></i>
+                <h2>Search Engine Optimisation</h2>
+                <p>We successfully offer SEO services to our cherished clients using the right strategies and keywords. We give our best effort for the client.</p>
+                <a href="">Learn More</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- #endregion Services -->
+ <!-- #region portfolio -->
+ <div id="portfolio">
+    <div class="container3">
+        <h1 class="sub-titles2">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                 <img src="imge/my work 2.jpg" alt="">
+                    <div class="layer">
+                        <h3>E-Commerce Website</h3>
+                        <p>E-commerce is a modern way of doing business where business transactions are facilitated through internet, I have experience in creating all these e-commerce site.</p>
+                        <a href=""><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+            </div>
+                <div class="work">
+                    <img src="imge/my work 4.jpg" alt="">
+                        <div class="layer">
+                            <h3>Business Website</h3>
+                            <p>A business website is a collection of web pages which is delivered to everyone through the internet, with your business brand and a complete online store with contact details.I have experience in creating all these business websites in keeping with the modern times.</p>
+                            <a href=""><i class="fa fa-external-link" aria-hidden="true"></i></a>
+
+                        </div>
+            </div>
+                <div class="work">
+                    <img src="imge/My work 3.jpg" alt="">
+                        <div class="layer">
+                         <h3>Authorization Page</h3>
+                        <p>Authorization is the process of giving someone the ability to access a resource.I have experience in creating all these Authorization Page in keeping with the modern times.</p>
+                        <a href=""><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">See More</a>
+    </div>
+
+ </div>
+ <!-- #endregion portfolio-->
+ <!-- #region contact  -->
+ <div id="contact">
+    <div class="container">
+        <div class="rows">
+            <div class="contact-left">
+                <h1 class="sub-titles3">Contact Me</h1>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i></i> rkmongsan@gmail.com</p>
+                    <p><i class="fa fa-phone-square" aria-hidden="true"></i> (+880)1735185689</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/hridoy.rk.56?mibextid=2JQ9oc"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://x.com/MongsanRk?t=-6vWt0bd_rOBFvkFWYXZLQ&s=09"><i class="fa fa-twitter-square" aria-hidden="true"></i></i></a>
+                    <a href="https://www.instagram.com/invites/contact/?i=13xktk3ijf7hn&utm_content=deq0t6i"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/mongsan-rk-3792a9293"><i class="fa fa-linkedin-square" aria-hidden="true"></i></i></a>
+                </div>
+                    <a href="" class="btn btn3">Download CV</a>
+
+                </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn4">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        
+
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy;Allright Reserved By@MONG 2023</p>
+    </div>
+
+ </div><!-- #endregion contact -->
+
+    
+
+
+<!-- #region ABOUT JAVA -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script><!-- #endregion About JAVA  -->
+    <script>
+        var sidemeu = document.getElementById("sidemenu")
+        function openmenu(){
+            sidemeu.style.right="0";
+
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";   
+             
+        }
+    </script> 
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzYcwYooITUHBjGoZ2zc066M28zGoDGHD47emErAFNkPGmMkkbPYCtyN_znrxwfHyA8/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message send successfully"
+                setTimeout(function(){
+                   msg.innerHTML = "" 
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body> 
+
+</html>
